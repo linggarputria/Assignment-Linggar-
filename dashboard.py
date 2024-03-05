@@ -8,7 +8,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Baca file linggar_archive.csv
-linggar_archive = pd.read_csv("E:/assignment/dashboard/all_data.csv")
+linggar_archive = pd.read_csv("all_data.csv")
 
 # Streamlit App
 st.title("Dashboard Jumlah Penyewa Sepeda pada Bike Rental")
